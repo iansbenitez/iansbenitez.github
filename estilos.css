@@ -80,7 +80,7 @@ a:hover {
 
 
 
-@media screen and (max-width: 480px)
+@media screen and (max-width: 560px)
 {
     .img-header {
         width: 20%;
@@ -190,7 +190,7 @@ span {
     padding: 10px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 560px) {
     .seccion-izq {
         display: flex;
         flex-direction: column;
@@ -251,7 +251,7 @@ span {
     background-image: url(img/aceite-natura.jpg);
 }
 
-@media screen and (max-width: 480px) 
+@media screen and (max-width: 560px) 
 {
     #almacen {
         display: flex;
@@ -345,7 +345,7 @@ span {
 }
 
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:560px) {
     
     .seccion-centro {
         display: flex;
@@ -533,7 +533,7 @@ span {
 }
 
 
-@media screen and (max-width:480px) {       
+@media screen and (max-width:560px) {       
 
     .pie-pag {
         display: flex;
@@ -566,18 +566,19 @@ span {
 
 }
 
+
 .botonestatico {
     position: fixed;    
     top: 880px;
     left: 93%;
     z-index: 10;
-    
-}
+    }
+
+
 
 .botonestatico a img {
     width: 80px;
 }
-
 
 
 
