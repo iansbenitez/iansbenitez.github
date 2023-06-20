@@ -78,7 +78,12 @@ a:hover {
     color: red !important;
 }
 
-
+@media screen and (max-width: 500px) { 
+    .navegador ul {
+        font-size: 8px;
+    }
+    
+}
 
 @media screen and (max-width: 560px)
 {
@@ -93,7 +98,7 @@ a:hover {
 
     .navegador ul {
         width: 100%;
-        font-size: 8px;
+        font-size: 12px;
     }
 }
 
@@ -204,6 +209,10 @@ span {
     padding: 10px;
 }
 
+
+
+
+
 @media screen and (max-width: 560px) {
     .seccion-izq {
         display: flex;
@@ -233,6 +242,7 @@ span {
 
     .contenedor-boton {
         margin-right: 15px;
+        top: 80%;
     }
 
     .botonestatico a img {
@@ -562,6 +572,8 @@ span {
 
     .texto-pie {
         height: 20%;
+        font-size: 15px;
+        letter-spacing: 4px;
     }
 
     .redes-pie {
@@ -572,6 +584,10 @@ span {
     .redes-pie ul {
         display: flex;
         justify-content: space-evenly;
+    }  
+
+    .redes-pie ul li {
+        padding-left: 8px;
     }
 
     
@@ -580,7 +596,7 @@ span {
     }
 
     .img-logo-footer {
-        width: 10px;
+        width: 25px;
     }
 
 
