@@ -97,6 +97,20 @@ a:hover {
     }
 }
 
+.contenedor-boton {
+    width: 5%;
+    height: 0.1%;
+    display: flex;
+    position: sticky;
+    float: right;
+    padding: 10px;
+    top: 90%;
+}
+
+.botonestatico a img {
+    width: 80px;
+}
+
 
 .secciones {
     display: flex;
@@ -217,7 +231,13 @@ span {
         margin-top: 5px;
     }
 
+    .contenedor-boton {
+        margin-right: 15px;
+    }
 
+    .botonestatico a img {
+        width: 50px;
+    }
 }
 
 
@@ -566,19 +586,6 @@ span {
 
 }
 
-
-.botonestatico {
-    position: fixed;    
-    top: 880px;
-    left: 93%;
-    z-index: 10;
-    }
-
-
-
-.botonestatico a img {
-    width: 80px;
-}
 
 
 
